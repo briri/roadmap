@@ -12,7 +12,7 @@ class StaticPagesController < ApplicationController
   def contact_us
   end
 
-  def roadmap
+  def future_plans
     
   end
   

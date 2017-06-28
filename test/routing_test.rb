@@ -26,8 +26,8 @@ class RoutingTest < ActionDispatch::IntegrationTest
     assert_routing help_path, target
   end
   test 'GET /roadmap should resolve to StaticPagesController#roadmap' do
-    target = {controller: "static_pages", action: "roadmap"}
-    assert_routing roadmap_path, target
+    target = {controller: "static_pages", action: "future_plans"}
+    assert_routing future_plans_path, target
   end
   test 'GET /terms should resolve to StaticPagesController#terms' do
     target = {controller: "static_pages", action: "termsuse"}

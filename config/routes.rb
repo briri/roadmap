@@ -72,7 +72,7 @@ Rails.application.routes.draw do
   root :to => 'home#index'
     get "about_us" => 'static_pages#about_us'
     get "help" => 'static_pages#help'
-    get "roadmap" => 'static_pages#roadmap'
+    get "future_plans" => 'static_pages#future_plans'
     get "terms" => 'static_pages#termsuse'
     get "public_plans" => 'static_pages#public_plans'
     get "public_export/:id" => 'static_pages#public_export', as: 'public_export'
